@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#F8F8F8"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/profile_style"
+        android:backgroundTint="#1FCB9B">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catalog"
+            android:fontFamily="@font/lato_regular"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="#f8f8f8"
+            android:textAlignment="center"></TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:text="Household Goods Catalog"
+        android:textColor="#1B374D"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="31dp"
+        android:layout_marginTop="20dp"></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="31dp">
+    </androidx.recyclerview.widget.RecyclerView>
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="330dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:src="@drawable/deal"></ImageView>
+
+
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:text="Product Categories"
+        android:textColor="#1B374D"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="31dp"></TextView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginLeft="31dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/style_card"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/kitchen_appliance">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Large appliances"
+                android:textColor="#1B374D"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/lato_regular"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/style_card"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/appliance_cleaning">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cleaning"
+                android:textColor="#1B374D"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/lato_regular"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/style_card"
+            android:layout_marginRight="31dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="7dp"
+                android:layout_width="95dp"
+                android:layout_gravity="center"
+                android:layout_height="100dp"
+                android:src="@drawable/kitchen">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kitchen"
+                android:textColor="#1B374D"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/lato_regular"></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/nav_style"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/nav_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@drawable/nav_style">
+                <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/home_icon"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nav_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@color/white"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dashboard_icon"></ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nav_user"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@drawable/nav_style">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile_user_icon"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

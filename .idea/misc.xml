@@ -4,20 +4,48 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/add_icon.xml" value="0.136" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/bottom_style.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/cart_icon.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/check_icon.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/cyrcle2_style.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/cyrcle_style.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/dashboard_icon.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/height_icon.xml" value="0.136" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/home_icon.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/lock_icon.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/logo_icon.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/nav_style.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/profile_style.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/profile_user_icon.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/remove_icon.xml" value="0.136" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/settings_icon.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/shadow.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/style.xml" value="0.1355" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/style_card.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/drawable/user_icon.xml" value="0.1355" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_authorization.xml" value="0.176" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_item.xml" value="0.264" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_main3.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_main4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_row.xml" value="0.4" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_sign_in.xml" value="0.136" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/activity_user.xml" value="0.2" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/fragment_account.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/fragment_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/fragment_user.xml" value="0.2" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/new_account_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/new_home_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/layout/new_list_fragment.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/dasta/AndroidStudioProjects/Kursach2/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
       </map>
