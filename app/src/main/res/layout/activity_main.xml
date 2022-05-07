@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1B374D"
+    >
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/green_logo"
+        android:layout_gravity="center"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELECTRON"
+        android:fontFamily="@font/lato_regular"
+        android:textColor="#1FCB9B"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELECTRICAL SHOP"
+        android:fontFamily="@font/lato_regular"
+        android:textColor="#1FCB9B"
+        android:textSize="20dp"
+        android:layout_gravity="center"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/libre_baskerville_regular"
+        android:lineSpacingExtra="5dp"
+        android:paddingHorizontal="40dp"
+        android:text="Simple way to help control your savings"
+        android:textColor="#F8F8F8"
+        android:textSize="35dp"
+        android:layout_marginTop="80dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/first_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style"
+        android:backgroundTint="#1FCB9B"
+        android:fontFamily="@font/lato_regular"
+        android:paddingHorizontal="60dp"
+        android:paddingVertical="23dp"
+        android:text="Get Started"
+        android:textColor="#F8F8F8"
+        android:textSize="30dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="#F8F8F8"
+            android:textSize="20dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/second_start"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:textStyle="bold"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="#F8F8F8"
+            android:textSize="22dp"></TextView>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
