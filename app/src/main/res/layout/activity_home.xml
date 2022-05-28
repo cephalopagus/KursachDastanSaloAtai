@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato_regular"
-        android:text="Household Goods Catalog"
+        android:text="Most Popular Products"
         android:textColor="#1B374D"
         android:textSize="18dp"
         android:textStyle="bold"
@@ -63,6 +63,7 @@
         android:textStyle="bold"
         android:layout_marginHorizontal="31dp"></TextView>
     <LinearLayout
+        android:id="@+id/error_page"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="150dp"

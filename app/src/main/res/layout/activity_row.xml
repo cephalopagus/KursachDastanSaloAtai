@@ -17,21 +17,20 @@
             android:id="@+id/image_item"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_marginTop="7dp"
-            android:src="@drawable/washing_machine">
+            android:layout_marginTop="7dp">
         </ImageView>
         <TextView
+            android:id="@+id/title_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LG Washing Machine"
             android:textColor="#1B374D"
             android:layout_marginTop="5dp"
             android:textAlignment="center"
             android:fontFamily="@font/lato_regular"></TextView>
         <TextView
+            android:id="@+id/cost_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="$500"
             android:layout_marginTop="3dp"
             android:textColor="#1FCB9B"
             android:textSize="12dp"

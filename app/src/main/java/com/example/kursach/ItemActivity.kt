@@ -3,25 +3,32 @@ package com.example.kursach
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kursach.databinding.ActivityItemBinding
+import java.util.ResourceBundle.getBundle
 
 class ItemActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityItemBinding
-    private var count: Int = 1
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityItemBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//        binding.plus.setOnClickListener {
-//            count++
-//            binding.num.setText(count)
-//        }
+
+
+        val bundle: Bundle?= intent.extras
+        val title = bundle?.getString("title")
+        val pic = bundle?.getInt("pic")
+        val cost = bundle?.getString("cost")
+
+        binding.detailTitle.text = title
+        if (pic != null) {
+            binding.detailImg.setImageResource(pic)
+        }
+        binding.detailCost.text = cost
+
     }
 
 
-//    fun setText(str: String) {
-//        binding.num.append(str)
-//
-//    }
 
 }
