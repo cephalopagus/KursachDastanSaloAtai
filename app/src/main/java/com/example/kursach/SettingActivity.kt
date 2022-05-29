@@ -32,7 +32,20 @@ class SettingActivity : AppCompatActivity() {
         mUserViewModel = ViewModelProvider(this).get(UserViewModel::class.java)
 
         binding.completeSetting.setOnClickListener {
-            insertDataToDatabase()
+            //insertDataToDatabase()
+            intentData()
+        }
+    }
+
+    private fun intentData() {
+        val name = name_setting.text.toString()
+        val address = address_setting.text.toString()
+        val phone = phone_setting.text.toString()
+        val intent = Intent(this, UserActivity::class.java).also {
+            it.putExtra("name", name)
+            it.putExtra("address", address)
+            it.putExtra("phone", phone)
+            startActivity(it)
         }
     }
 

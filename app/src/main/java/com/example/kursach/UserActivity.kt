@@ -48,7 +48,13 @@ class UserActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.email_profile).apply {
             text = hi
         }
+        val name = intent.getStringExtra("name")
+        val address = intent.getStringExtra("address")
+        val phone = intent.getStringExtra("phone")
 
+        binding.nameProfile.text = name
+        binding.addressProfile.text = address
+        binding.phoneProfile.text = phone
 
 
 
