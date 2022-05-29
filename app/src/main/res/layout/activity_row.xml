@@ -14,12 +14,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <ImageView
+            android:src="@drawable/washing_machine"
             android:id="@+id/image_item"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginTop="7dp">
         </ImageView>
         <TextView
+            android:text="LG Washing Machine"
             android:id="@+id/title_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -28,6 +30,7 @@
             android:textAlignment="center"
             android:fontFamily="@font/lato_regular"></TextView>
         <TextView
+            android:text="230"
             android:id="@+id/cost_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

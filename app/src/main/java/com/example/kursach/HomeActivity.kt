@@ -19,7 +19,7 @@ class HomeActivity : AppCompatActivity() {
 
     lateinit var image: Array<Int>
     lateinit var title: Array<String>
-    lateinit var cost: Array<String>
+    lateinit var cost: Array<Int>
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -55,10 +55,10 @@ class HomeActivity : AppCompatActivity() {
 
         )
         cost = arrayOf(
-            "$230",
-            "$110",
-            "$80",
-            "$190"
+            230,
+            110,
+            80,
+            90
         )
 
 

@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.kursach.Data.User
 import com.example.kursach.Data.UserViewModel
@@ -32,10 +34,6 @@ class SettingActivity : AppCompatActivity() {
         binding.completeSetting.setOnClickListener {
             insertDataToDatabase()
         }
-
-
-
-
     }
 
     private fun insertDataToDatabase() {
@@ -47,15 +45,15 @@ class SettingActivity : AppCompatActivity() {
 
 
         if (inputCheck(firstName, address, phone)){
-            val idRand = (15 .. 10000).random()
-            val user = User(idRand, firstName, address, phone)
+            val idRand = (15 .. 1000000).random()
+            val user = User(idRand,email, firstName, address, phone)
             mUserViewModel.addUser(user)
             Toast.makeText(this, "Successfully added!", Toast.LENGTH_LONG).show()
             val intent = Intent(this, UserActivity::class.java)
             startActivity(intent)
         }
         else{
-            Toast.makeText(this, "Давай по новой блять!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Error!", Toast.LENGTH_LONG).show()
         }
     }
     private fun inputCheck(firstName: String, address: String, phone: String):Boolean{

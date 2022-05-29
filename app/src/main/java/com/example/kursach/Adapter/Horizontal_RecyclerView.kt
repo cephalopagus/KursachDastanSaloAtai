@@ -1,17 +1,12 @@
 package com.example.kursach.Adapter
 
-import android.app.Activity
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kursach.Domain.ItemDomain
-import com.example.kursach.ItemActivity
 import com.example.kursach.R
 
 class Horizontal_RecyclerView(private val itemList: ArrayList<ItemDomain>): RecyclerView.Adapter<Horizontal_RecyclerView.myViewHolder>() {
@@ -49,7 +44,7 @@ class Horizontal_RecyclerView(private val itemList: ArrayList<ItemDomain>): Recy
         val currentItem = itemList[position]
         holder.itemImg.setImageResource(currentItem.pic)
         holder.itemTitle.text = currentItem.title
-        holder.itemCost.text = currentItem.cost
+        holder.itemCost.text = "$"+currentItem.cost
 
     }
 
